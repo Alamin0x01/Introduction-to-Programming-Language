@@ -9,7 +9,15 @@ int main()
     printf("sub= %d\n", sub);
     int mul = a * b;
     printf("mul= %d\n", mul);   
+    return 0;
     int div = a / b;
     printf("div= %d\n", div);
-    return 0;
+    
+
+    // dosomik shonkha ber korte hole
+    // float a = 50;
+    // int b = 20;
+    // float div = a / b;
+    // printf("div= %f\n", div);
+
 }
