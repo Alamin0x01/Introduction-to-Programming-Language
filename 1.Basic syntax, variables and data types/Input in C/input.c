@@ -1,7 +1,10 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     int a;
-    scanf("%d",&a);
-    printf("%d",a);
+    float f;
+    char c;
+    scanf("%d %f %c", &a, &f, &c);
+    printf("%d %f %c", a, f, c);
     return 0;
 }
